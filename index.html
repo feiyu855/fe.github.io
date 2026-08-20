@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>个人简历</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		
+		body{
+			background-color: #ffdbdb;
+			line-height: 1.75;
+			font-family: "Microsoft Yahei",sans-serif;
+		}
+		
+		.container{
+			width: 80%;
+			max-width: 980px;
+			margin: 45px auto;
+			background-color: #ffffff;
+			padding: 40px;
+			border-radius: 12px;
+			box-shadow: 0 2px 18px rgba(0,0,0,0.08);
+		}
+		
+		/*头部个人信息 居中显示*/
+		.header{
+			padding-bottom:24px;
+			border-bottom: 1px solid #cad8e6;
+			margin-bottom:35px;
+			text-align: center;
+		}
+		.header-top{
+			margin-bottom:14px;
+		}
+		.header-top h1{
+			font-size:36px;
+			color:#1a202c;
+			margin-bottom:6px;
+		}
+		.header-top .job-intent{
+			font-size:18px;
+			color:#2b6cb0;
+		}
+		.info-row{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 12px 24px;
+			margin-top:12px;
+			font-size:15px;
+			color:#4a5568;
+		}
+
+		/*通用板块样式*/
+		.section{
+			margin-bottom:32px;
+		}
+		.section h2{
+			font-size:20px;
+			color:#2d3748;
+			padding-bottom:6px;
+			border-bottom:2px solid #3182ce;
+			margin-bottom:18px;
+		}
+		.item{
+			margin-bottom:22px;
+		}
+		.item-head{
+			display:flex;
+			justify-content:space-between;
+			margin-bottom:8px;
+		}
+		.item h3{
+			font-size:17px;
+			color:#1a202c;
+		}
+		.item .time{
+			color:#718096;
+			font-size:15px;
+		}
+		.item ul{
+			padding-left:22px;
+			color:#4a5568;
+		}
+		.item ul li{
+			margin-bottom:6px;
+		}
+		.item p{
+			color:#4a5568;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="header-top">
+				<h1>刘紫暄</h1>
+				<div class="job-intent">求职意向：销售类，运营类，产品经理</div>
+			</div>
+			<div class="info-row">
+				<div>姓名：刘紫暄</div>
+				<div>籍贯：湖北省天门市</div>
+				<div>出生年月：2004年10月</div>
+				<div>毕业院校：湖北商贸学院</div>
+				<div>手机号码：19941208613</div>
+				<div>邮箱：15346660934@189.cn</div>
+			</div>
+		</div>
+
+		<!--教育背景-->
+		<div class="section">
+			<h2>教育背景</h2>
+			<div class="item">
+				<div class="item-head">
+					<h3>湖北商贸学院 | 计算机科学与技术专业</h3>
+					<div class="time">2022.09‑2026.06</div>
+				</div>
+				<p>主修课程：计算机科学与技术，概率论与数理统计，线性代数，编译原理，计算机英语，计算机应用。</p >
+			</div>
+		</div>
+
+		<!--实习经历 时间倒序-->
+		<div class="section">
+			<h2>实习经历</h2>
+			<div class="item">
+				<div class="item-head">
+					<h3>软件测试实习生</h3>
+					<div class="time">2026.05‑2026.07</div>
+				</div>
+				<ul>
+					<li>根据产品需求编写测试用例，开展功能测试，发现、复现并提交bug，跟踪缺陷闭环。</li>
+					<li>协助开展回归测试，验证bug修复效果，输出简单测试记录，保障软件版本质量。</li>
+					<li>对接开发人员，沟通问题现象，协助定位问题，提升系统稳定性。</li>
+				</ul>
+			</div>
+
+			<div class="item">
+				<div class="item-head">
+					<h3>猿辅导小学英语系统班 | 班主任代课老师</h3>
+					<div class="time">2025.10‑2025.11</div>
+				</div>
+				<ul>
+					<li>负责小学三年级英语系统班学员的学习跟进、课堂服务与家校沟通，维护班级秩序，督促学员完成学习任务。</li>
+					<li>解答学员及家长疑问，跟踪学习效果，进行作业批改与学情反馈，提升学员出勤率与完课率。</li>
+				</ul>
+			</div>
+
+			<div class="item">
+				<div class="item-head">
+					<h3>中国酒业协会科教设计装备委员会 | 商务专员实习生</h3>
+					<div class="time">2025.03‑2025.10</div>
+				</div>
+				<ul>
+					<li>客户答疑与服务：负责客户咨询响应，精准解答活动开展信息、行业相关咨询等疑问，保障客户咨询满意度，维护协会专业服务形象。</li>
+					<li>活动人员招募与客情维护：主导活动目标客户招募，通过多轮沟通反馈，累计对接超100位潜在客户；深入挖掘客户需求，成功与8位核心客户建立长期稳定联系，为活动落地及后续合作奠定基础。</li>
+				</ul>
+			</div>
+		</div>
+
+		<!--持有证书-->
+		<div class="section">
+			<h2>持有证书</h2>
+			<div class="item">
+				<p>大学英语四级证书、普通话国家二级乙等证书、熟练掌握Excel等办公软件。</p >
+			</div>
+		</div>
+
+		<!--自我评价-->
+		<div class="section">
+			<h2>自我评价</h2>
+			<div class="item">
+				<p>本人是计算机科学与技术专业本科在校生，具备较强的沟通表达与逻辑思维能力，善于倾听需求、快速理解信息，能积极与他人协作推进简单任务，适配销售运营场景中的基础对接工作。积极吸取经验，有独到的见解和经验，个性开朗，容易相处，团队荣誉感强，有明确的职业规划。</p >
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
